@@ -1,0 +1,42 @@
+# Ignore all .zip files
+*.zip
+
+# Terraform directories and files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# Ignore local Terraform configuration override files
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore sensitive information
+*.pem
+*.key
+*.crt
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific directories and files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS generated files
+desktop.ini
